@@ -9,6 +9,9 @@ html{
     border-width: 2pt;
 
 }
+.wrapper{
+    display: grid;
+}
 .one{
     grid-template-rows: 50px 100px;
     border: solid;
