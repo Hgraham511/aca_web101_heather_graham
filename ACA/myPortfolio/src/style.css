@@ -1,0 +1,55 @@
+body{
+    background-color: lightgrey;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    margin: 0pt;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    margin: 0%;
+    padding 0
+    ;
+}
+.headerTop{
+    background-color: darkblue;
+    color: white;
+    margin: 0%; !important
+}
+.headerTopTwo{
+    background-color: white;
+    color: darkgoldenrod;
+    margin: 0%;
+}
+main{
+   margin-top: 5pt;
+   margin-right: 50pt;
+   margin-left: 50pt;
+   margin-bottom: 5pt;
+
+   font-family: 'Montserrat', sans-serif;
+}
+article{
+    border: 2pt;
+    border-color: black;
+    border-style: solid;
+    margin: 1pt;
+    background-color: whitesmoke;
+    text-align: start;
+    
+}
+button{
+   border-radius: 0%;
+   background-color: darkgoldenrod;
+   padding: 3pt;
+
+}
+h2{
+    font-size: 11pt;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10pt;
+}
