@@ -1,0 +1,42 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+body{
+    background-color: #cccccc;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1%;
+    background: url("Webp.net-resizeimage_2_700x600.jpg");
+}
+
+  .greeting{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    height:400pt;
+    background-color:bisque;
+  }
+  .widgetOne{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    background-color: bisque;
+    height: 150pt;
+  }
+  .widgetTwo{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-color: bisque;
+    height: 150pt;
+      
+}
+.widgetThree{
+    grid-column-start: 4;
+    grid-row-start: 3;
+    background-color: bisque;
+    height: 150pt;
+}
