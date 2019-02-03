@@ -20,7 +20,7 @@ width: 300pt;
     height: 60pt;
     background-color: black;
     color: white;
-    font-size: 10pt;
+    font-size: 20pt;
 }
 .buttonOperator{
     text-align: center;
@@ -29,16 +29,19 @@ width: 300pt;
     height: 60pt;
     width: 71pt;
     font-size: x-large; 
+    font-size: 20pt;
 }
 .buttonNumber{
     text-align: center;
     border: 2pt solid red;
     height: 60pt;
-    width: 71pt
+    width: 71pt;
+    font-size: 20pt;
 }
 .buttonNumberZero{
     text-align: center;
     border: 2pt solid purple;
     height: 60pt;
     width: 146pt;
+    font-size: 20pt;
 }
