@@ -1,0 +1,144 @@
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #4C8F96;
+}
+.navRight{
+    text-align: center;
+}
+.logo{
+    text-align: center; 
+    background-color: #1A1E33;
+    color: white;
+}
+
+.button{
+    background-color: #1A1E33;
+    color: white;
+    border-radius: 7%;
+    height: 30pt;
+    width: 30pt;
+}
+.greeting{
+    border: 1pt solid #4C8F96;
+}
+.rowTop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr; 
+    grid-gap: 2%;
+    margin: 2pt;
+}
+
+.rowTopImg{
+display: grid;
+grid-column: auto;
+}
+.rowBottomText{
+grid-column: auto;
+}
+footer{
+    background-color: #4C8F96;
+    height:20pt;
+    margin-top: 10pt;
+}
+.bottomDetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr  1fr; 
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+}
+.left{
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1/6;
+    padding: 2pt;
+    border: 1pt solid #4C8F96;
+}
+.rightTop{
+    background-color: #4C8F96;
+    grid-column: 3/6;
+    grid-row: 1/4;
+    padding: 5pt;
+}
+.rightBottom{
+    color:white;
+    background-color: #4C8F96;
+    grid-column: 3/6;
+    grid-row: 4/6;
+    padding: 5pt;
+}
+
+/* Mobile */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 667px) {
+
+        header{
+
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 12vh;
+            width: 70vw;
+            margin-left: 34pt;
+            margin-top: 3pt;
+            margin-bottom: 6pt;
+        }
+        .navRight{
+
+        }
+        span{
+            height: 30pt;
+            width: 30pt;
+        }
+        main{
+
+        }
+  }
+        .greeting{
+            display: flex;
+            justify-content: wrap;
+            flex-flow: row wrap;
+            align-items: stretch;
+        }
+        .greetingImg{
+            flex-grow: 1;
+            margin-top: 3pt;
+            margin-left: 2px;
+            height: 23vh;
+            width: 24vw;
+        }
+        .greetingMessage{
+            flex-grow: 2;
+            display: flex;
+            justify-content: right;
+            margin-top: 40px;
+            font-size: 25px;
+            width: 100pt;
+        }
+        .rowTop{
+        margin-bottom: 18pt;
+        }
+        .rowTopImg{
+            height: 56pt;
+            width: 62pt;
+        }
+        .rowBottomText{
+            height: 56pt;
+            width: 62pt; 
+        }
+        h3{
+            font-size: 8pt;
+        }
+        p{
+            font-size: 6pt;
+        }
+
+/* Desktop */
