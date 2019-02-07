@@ -13,14 +13,17 @@ header{
     text-align: center; 
     background-color: #1A1E33;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button{
     background-color: #1A1E33;
     color: white;
     border-radius: 7%;
-    height: 30pt;
-    width: 30pt;
+    height: 50pt;
+    width: 50pt;
 }
 .greeting{
     border: 1pt solid #4C8F96;
@@ -78,30 +81,17 @@ footer{
   and (min-device-width: 320px) 
   and (max-device-width: 667px) {
 
-        header{
-
-        }
         .logo{
-            display: flex;
-            justify-content: center;
-            align-items: center;
             height: 12vh;
             width: 70vw;
             margin-left: 34pt;
             margin-top: 3pt;
             margin-bottom: 6pt;
         }
-        .navRight{
-
-        }
         span{
-            height: 30pt;
-            width: 30pt;
+            height: 50pt;
+            width: 50pt;
         }
-        main{
-
-        }
-  }
         .greeting{
             display: flex;
             justify-content: wrap;
@@ -139,6 +129,46 @@ footer{
         }
         p{
             font-size: 6pt;
+        
+         }
         }
 
 /* Desktop */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .logo{
+    height: 12vh;
+    width: 32vw;
+    margin-left: 34pt;
+    margin-bottom: 6pt;
+    font-size: 49pt;
+    }
+    span{
+        height: 100pt;
+    }
+    .button{
+    }
+    .greetingMessage{
+        height: 4em;
+        font-size: 33pt;
+        display: flex;
+        float: right;
+        margin-right: 3em;
+    }
+    .greeting{
+    height: 19em;
+    margin: 8pt;
+    }
+    .details{
+        margin: 2em;
+    }
+    }
+
+    footer{
+        height:3pt;
+    }
+}
+
