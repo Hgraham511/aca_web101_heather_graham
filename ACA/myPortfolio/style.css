@@ -10,14 +10,16 @@ body {
     height: 100px;
     margin: 3% 10%;
   }
-  
+  .box{
+    border: 1pt solid black;
+  }
   header {
     display: grid;
     grid-template-columns: 40% 60%;
     width: 100%;
   }
   
-  main {
+  main, footer{
     height: auto;
     width: 100%;
     display: grid;
@@ -88,3 +90,42 @@ body {
     letter-spacing: 16px;
     font-style: italic;
   }
+  /* 2.11.18 changes */
+
+iframe{
+  grid-column: 2/3;
+}
+footer{
+  background-color: lightblue;
+  }
+form{
+  height: 12em;
+  width: 22em;
+  grid-column: 2/3;
+}
+.button-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.form-button{
+    margin: 3% auto;
+    height: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 14px;
+    padding-bottom: 3%;
+    text-align: center;
+    color: white;
+    letter-spacing: 11px;
+    font-style: italic;
+
+}
+#msg{
+  height: 5em;
+  width: 23em;
+}
+.list{
+  grid-column: 1/3; 
+}
