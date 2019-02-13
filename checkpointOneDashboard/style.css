@@ -4,14 +4,14 @@ html{
 }
 body{
     background-color: #cccccc;
-    background-image: url(Webp.net-resizeimage_2_700x600.jpg)
+    background-image: url(/img/Webp.net-resizeimage_2_700x600.jpg)
 }
 
   .textTwo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20pt;
     text-align: center;
-    height: 51pt;
+    height: 50pt;
   }
 
   h1{
