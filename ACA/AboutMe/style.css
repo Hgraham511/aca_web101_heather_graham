@@ -7,38 +7,104 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height: 575pt;
+    height: 530pt;
 }
 .box{
     border: 1pt solid black;
 }
 
 .top{
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 6;
-    background-color:#EBEBEB;
+    grid-row: 1/1;
+    background-color: #EBEBEB;
     height: 60pt;
+    margin-left: 15%;
+    
 }
 /* Navagation */
 .nav{
     grid-column: 1/1;
-    grid-row: 1/1;
-    height: 100pt;
-    width: 100pt;   
+    grid-row: 1/4;
+    height: 200pt;
+    width: 69pt;
+    margin-top: 132pt;  
+}
+.link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    padding-bottom: 37pt;
+    margin-left: -10pt;
 }
 /* Aside content */
 .about-text{
     grid-column: 2/5;
     grid-row: 2/2;
-
+    margin-left: 18pt;
 }
 .image{
-grid-column: 3/4;
-grid-row: 1/1;
-height: 100pt;
-width: 100pt;
+    background-image: url(img/toa-heftiba-547030-unsplash.jpg);
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 196pt;
+    width: 169pt;
+    margin-top: 40pt;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8pt;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.pgh4{
+    grid-column: 1/6;
+    grid-row: 3/3;
+    margin: 8pt;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 /* Footer */
 footer{
     background-color:#EBEBEB; 
+    height: 64pt;
+    border: 1pt solid #EBEBEB;
 }
+.bottom-outline{
+    grid-row: 4;
+    grid-column: 1/5;
+    height: 4em;
+    width: 21em;
+    border: 1pt solid #C07E56;
+    margin-left: 7pt;
+}
+.fa{
+margin-left: 115pt;
+}
+
+/* Desktop View */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    main{
+        height: 60em;
+    }
+    footer{
+        height: 15em;
+    }
+    .bottom-outline{
+        grid-row: 5;
+        height: 8em;
+        width: 47em;
+        margin-left: 7em;
+        margin-top: 25%;
+    }
+    p{
+        font-size: 15pt;
+    }
+    .fa-envelope-o{
+        margin-left: 29em;
+    }
+    
+  }
