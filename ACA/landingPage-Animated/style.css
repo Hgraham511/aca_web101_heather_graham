@@ -1,0 +1,51 @@
+
+html{
+    padding: 0pt;
+    margin: 0pt;
+}
+main{
+    background-color: #483A52;
+    height: 900pt;
+    width: 100%;
+}
+.box{
+    height: 126pt;
+    width: 163pt;
+    background-color: aqua;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 700pt;
+    margin: 30pt;
+    /* background-color: azure; */
+    animation-duration: 30s;
+}
+.headerNav{
+    grid-column: 1/6;
+    grid-row: 1/1;
+    background-color: blue; 
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2/2;
+}
+.box2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 2/2;
+}
+.box3{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row: 2/2;
+}
+ .row .zoomInLeft .zoomInDown .zoomInRight{
+    animation-duration: 2s;
+}
+#icon{
+    font-size: 30pt;
+    color: blueviolet;
+}

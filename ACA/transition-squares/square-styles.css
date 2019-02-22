@@ -1,0 +1,31 @@
+main{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+#container{
+    transition: 1s;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    color: white;
+    background-color: pink;
+    margin-bottom: 1px;
+    transition: all 1s ease-in-out;
+
+}
+#container:hover :nth-child(even){
+    position: relative;
+    background-color: red;
+    transform: translate(300px) rotate(360deg) scale(2.5,2.5);
+
+}
+#container:hover :nth-child(odd){
+    position: relative;
+    background-color: purple;
+    transform: translate(-300px) rotate(-360deg) scale(0.2,0.2);
+    
+}
