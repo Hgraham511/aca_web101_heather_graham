@@ -17,6 +17,9 @@ main{
     transition: all 1s ease-in-out;
 
 }
+.box2{
+    transition: all 3s ease-in-out
+}
 #container:hover :nth-child(even){
     position: relative;
     background-color: red;
