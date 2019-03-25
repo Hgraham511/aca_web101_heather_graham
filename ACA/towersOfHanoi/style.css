@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+  }
+  
+  [data-row] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 34px;
+    margin: 25px;
+  }
+  [data-row] {
+    background: lightgrey;
+  }
+  
+  [data-color="yellow"]{
+    width: 40px;
+    height: 20px;
+    background: yellow;
+  }
+  
+  [data-color="red"] {
+    width: 100px;
+    height: 20px;
+    background: red;
+   
+  }
+  
+  [data-color="blue"] {
+    width: 80px;
+    height: 20px;
+    background: blue;
+
+  }
+  [data-color="green"] {
+    width: 60px;
+    height: 20px;
+    background: green;
+  }
+  
+  #announce-game-won {
+    font-size: 50px;
+    text-align: center;
+  }
